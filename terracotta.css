@@ -1,0 +1,13 @@
+:root {
+	--terracotta_hue: 27deg;
+	--terracotta_saturation: 71%;
+	--terracotta_lightness: 58%;
+	--terracotta_alpha: 100%;
+
+	--terracotta_hsla: hsla(
+		var(--terracotta_hue),
+		var(--terracotta_saturation),
+		var(--terracotta_lightness),
+		var(--terracotta_alpha)
+	);
+}

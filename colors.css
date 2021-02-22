@@ -1,0 +1,7 @@
+@import "./clairvoyant.css";
+@import "./terracotta.css";
+
+:root {
+	--color-clairvoyant: var(--clairvoyant_hsla);
+	--color-terracotta: var(--terracotta_hsla);
+}

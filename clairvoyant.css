@@ -1,0 +1,13 @@
+:root {
+	--clairvoyant_hue: 297deg;
+	--clairvoyant_saturation: 91%;
+	--clairvoyant_lightness: 18%;
+	--clairvoyant_alpha: 100%;
+
+	--clairvoyant_hsla: hsla(
+		var(--clairvoyant_hue),
+		var(--clairvoyant_saturation),
+		var(--clairvoyant_lightness),
+		var(--clairvoyant_alpha)
+	);
+}
