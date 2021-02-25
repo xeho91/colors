@@ -1,5 +1,30 @@
 {
-  "clairvoyant": "#2c042e",
-  "terracotta": "#e18e4a",
-  "shadowOpacity": 0.75
+  "clairvoyant": {
+    "HSLA": "hsla(297deg, 84%, 10%, 1)",
+    "hue": "297deg",
+    "saturation": "84%",
+    "lightness": "100%",
+    "alpha": 1,
+    "hex": "#2D042FFF",
+    "RGBA": "rgba(45, 4, 47, 1)",
+    "red": 45,
+    "green": 4,
+    "blue": 47
+  },
+  "terracotta": {
+    "HSLA": "hsla(27deg, 72%, 59%, 1)",
+    "hue": "27deg",
+    "saturation": "72%",
+    "lightness": "59%",
+    "alpha": 1,
+    "hex": "#E18E4AFF",
+    "RGBA": "rgba(225, 142, 74, 1)",
+    "red": 225,
+    "green": 142,
+    "blue": 74
+  },
+  "shadow": {
+    "color": "hsla(27deg, 72%, 59%, 1)",
+    "opacity": 0.75
+  }
 }

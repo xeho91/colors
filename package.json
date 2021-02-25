@@ -1,0 +1,29 @@
+{
+  "name": "xeho91-colors",
+  "version": "1.0.0",
+  "description": "xeho91's brand colors",
+  "keywords": [
+    "colors",
+    "brand",
+    "CSS",
+    "JSON"
+  ],
+  "author": "xeho91 <xeho91@pm.me> (https://xeho91.site/)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xeho91/colors.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xeho91/colors/issues"
+  },
+  "homepage": "https://github.com/xeho91/colors#readme",
+  "scripts": {
+    "build": "postcss \"./source/colors.css\" --output \"./build/colors.css\" --use postcss-import --verbose"
+  },
+  "devDependencies": {
+    "postcss": "^8.2.6",
+    "postcss-cli": "^8.3.1",
+    "postcss-import": "^14.0.0"
+  }
+}

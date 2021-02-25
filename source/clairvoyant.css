@@ -1,0 +1,16 @@
+:root {
+	--clairvoyant_hue: 297deg;
+	--clairvoyant_saturation: 84%;
+	--clairvoyant_lightness: 10%;
+	--clairvoyant_alpha: 1;
+
+	--clairvoyant_hsla: hsla(
+		var(--clairvoyant_hue),
+		var(--clairvoyant_saturation),
+		var(--clairvoyant_lightness),
+		var(--clairvoyant_alpha)
+	);
+
+	--color-clairvoyant: var(--clairvoyant_hsla);
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNsYWlydm95YW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtDQUNDLHlCQUF5QjtDQUN6Qiw2QkFBNkI7Q0FDN0IsNEJBQTRCO0NBQzVCLHNCQUFzQjs7Q0FFdEI7Ozs7O0VBS0M7O0NBRUQsNENBQTRDO0FBQzdDIiwiZmlsZSI6ImNsYWlydm95YW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIjpyb290IHtcblx0LS1jbGFpcnZveWFudF9odWU6IDI5N2RlZztcblx0LS1jbGFpcnZveWFudF9zYXR1cmF0aW9uOiA4NCU7XG5cdC0tY2xhaXJ2b3lhbnRfbGlnaHRuZXNzOiAxMCU7XG5cdC0tY2xhaXJ2b3lhbnRfYWxwaGE6IDE7XG5cblx0LS1jbGFpcnZveWFudF9oc2xhOiBoc2xhKFxuXHRcdHZhcigtLWNsYWlydm95YW50X2h1ZSksXG5cdFx0dmFyKC0tY2xhaXJ2b3lhbnRfc2F0dXJhdGlvbiksXG5cdFx0dmFyKC0tY2xhaXJ2b3lhbnRfbGlnaHRuZXNzKSxcblx0XHR2YXIoLS1jbGFpcnZveWFudF9hbHBoYSlcblx0KTtcblxuXHQtLWNvbG9yLWNsYWlydm95YW50OiB2YXIoLS1jbGFpcnZveWFudF9oc2xhKTtcbn1cbiJdfQ== */

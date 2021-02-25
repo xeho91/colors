@@ -1,0 +1,16 @@
+:root {
+	--terracotta_hue: 27deg;
+	--terracotta_saturation: 72%;
+	--terracotta_lightness: 59%;
+	--terracotta_alpha: 1;
+
+	--terracotta_hsla: hsla(
+		var(--terracotta_hue),
+		var(--terracotta_saturation),
+		var(--terracotta_lightness),
+		var(--terracotta_alpha)
+	);
+
+	--color-terracotta: var(--terracotta_hsla);
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInRlcnJhY290dGEuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0NBQ0MsdUJBQXVCO0NBQ3ZCLDRCQUE0QjtDQUM1QiwyQkFBMkI7Q0FDM0IscUJBQXFCOztDQUVyQjs7Ozs7RUFLQzs7Q0FFRCwwQ0FBMEM7QUFDM0MiLCJmaWxlIjoidGVycmFjb3R0YS5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyI6cm9vdCB7XG5cdC0tdGVycmFjb3R0YV9odWU6IDI3ZGVnO1xuXHQtLXRlcnJhY290dGFfc2F0dXJhdGlvbjogNzIlO1xuXHQtLXRlcnJhY290dGFfbGlnaHRuZXNzOiA1OSU7XG5cdC0tdGVycmFjb3R0YV9hbHBoYTogMTtcblxuXHQtLXRlcnJhY290dGFfaHNsYTogaHNsYShcblx0XHR2YXIoLS10ZXJyYWNvdHRhX2h1ZSksXG5cdFx0dmFyKC0tdGVycmFjb3R0YV9zYXR1cmF0aW9uKSxcblx0XHR2YXIoLS10ZXJyYWNvdHRhX2xpZ2h0bmVzcyksXG5cdFx0dmFyKC0tdGVycmFjb3R0YV9hbHBoYSlcblx0KTtcblxuXHQtLWNvbG9yLXRlcnJhY290dGE6IHZhcigtLXRlcnJhY290dGFfaHNsYSk7XG59XG4iXX0= */
