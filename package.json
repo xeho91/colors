@@ -1,5 +1,5 @@
 {
-  "name": "xeho91-colors",
+  "name": "@xeho91/colors",
   "version": "1.0.0",
   "description": "xeho91's brand colors",
   "keywords": [
@@ -18,6 +18,14 @@
     "url": "https://github.com/xeho91/colors/issues"
   },
   "homepage": "https://github.com/xeho91/colors#readme",
+  "files": [
+    "./build/",
+    "colors.json"
+  ],
+  "main": "colors.json",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "scripts": {
     "build": "postcss \"./source/colors.css\" --output \"./build/colors.css\" --use postcss-import --verbose"
   },
