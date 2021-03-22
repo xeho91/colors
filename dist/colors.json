@@ -23,6 +23,18 @@
     "green": 142,
     "blue": 74
   },
+  "calico": {
+    "HSLA": "hsla(27deg, 56%, 73%, 1)",
+    "hue": "27deg",
+    "saturation": "56%",
+    "lightness": "73%",
+    "alpha": 1,
+    "hex": "#E28F4BFF",
+    "RGBA": "rgba(225, 182, 148, 1)",
+    "red": 225,
+    "green": 182,
+    "blue": 148
+  },
   "shadow": {
     "color": "hsla(27deg, 72%, 59%, 1)",
     "opacity": 0.75

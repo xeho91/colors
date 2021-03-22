@@ -1,10 +1,11 @@
 {
   "name": "@xeho91/colors",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "xeho91's brand colors",
   "keywords": [
     "colors",
     "brand",
+    "assets",
     "CSS",
     "JSON"
   ],
@@ -15,22 +16,22 @@
     "url": "git+https://github.com/xeho91/colors.git"
   },
   "bugs": {
-    "url": "https://github.com/xeho91/colors/issues"
+    "url": "https://github.com/xeho91/xeho91/issues"
   },
   "homepage": "https://github.com/xeho91/colors#readme",
   "files": [
-    "colors.json"
+    "/dist/colors.json"
   ],
-  "main": "build/colors.css",
-  "style": "build/colors.css",
+  "main": "/dist/colors.css",
+  "style": "/dist/colors.css",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
   "scripts": {
-    "build": "postcss \"./source/colors.css\" --output \"./build/colors.css\" --use postcss-import --verbose"
+    "build": "postcss \"./source/colors.css\" --output \"./dist/colors.css\" --use postcss-import --verbose"
   },
   "devDependencies": {
-    "postcss": "^8.2.6",
+    "postcss": "^8.2.8",
     "postcss-cli": "^8.3.1",
     "postcss-import": "^14.0.0"
   }
