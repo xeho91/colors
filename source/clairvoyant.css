@@ -1,15 +1,32 @@
 :root {
+	--clairvoyant_alpha: 1;
+
 	--clairvoyant_hue: 297deg;
 	--clairvoyant_saturation: 84%;
 	--clairvoyant_lightness: 10%;
-	--clairvoyant_alpha: 1;
-
-	--clairvoyant_hsla: hsla(
+	--clairvoyant_HSL:
 		var(--clairvoyant_hue),
 		var(--clairvoyant_saturation),
-		var(--clairvoyant_lightness),
+		var(--clairvoyant_lightness);
+	--clairvoyant_HSLA: hsla(
+		var(--clairvoyant_HSL),
 		var(--clairvoyant_alpha)
 	);
 
-	--color-clairvoyant: var(--clairvoyant_hsla);
+    --clairvoyant_red: 45;
+    --clairvoyant_green: 4;
+    --clairvoyant_blue: 47;
+	--clairvoyant_RGB: (
+		var(--clairvoyant_red),
+		var(--clairvoyant_green),
+		var(--clairvoyant_blue)
+	);
+	--clairvoyant_RGBA: hsla(
+		var(--clairvoyant_RGB),
+		var(--clairvoyant_alpha)
+	);
+
+    --clairvoyant_hex: 261003FF;
+
+	--color-clairvoyant: var(--clairvoyant_HSLA);
 }

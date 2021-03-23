@@ -1,15 +1,32 @@
 :root {
-	--calico_hue: 27deg;
-	--calico_saturation: 56%;
-	--calico_lightness: 73%;
 	--calico_alpha: 1;
 
-	--calico_hsla: hsla(
+	--calico_hue: 26deg;
+	--calico_saturation: 56%;
+	--calico_lightness: 73%;
+	--calico_HSL:
 		var(--calico_hue),
 		var(--calico_saturation),
-		var(--calico_lightness),
+		var(--calico_lightness);
+	--calico_HSLA: hsla(
+		var(--calico_HSL),
 		var(--calico_alpha)
 	);
 
-	--color-calico: var(--calico_hsla);
+    --calico_red: 225;
+    --calico_green: 181;
+    --calico_blue: 148;
+	--calico_RGB: (
+		var(--calico_red),
+		var(--calico_green),
+		var(--calico_blue)
+	);
+	--calico_RGBA: hsla(
+		var(--calico_RGB),
+		var(--calico_alpha)
+	);
+
+    --calico_hex: #E1B594FF;
+
+	--color-calico: var(--calico_HSLA);
 }
