@@ -1,9 +1,21 @@
 {
+  "kilimanjaro": {
+    "HSLA": "hsla(22deg, 85%, 8%, 1)",
+    "hue": "22deg",
+    "saturation": "85%",
+    "lightness": "8%",
+    "alpha": 1,
+    "hex": "261003FF",
+    "RGBA": "rgba(38, 16, 3, 1)",
+    "red": 38,
+    "green": 16,
+    "blue": 3
+  },
   "clairvoyant": {
     "HSLA": "hsla(297deg, 84%, 10%, 1)",
     "hue": "297deg",
     "saturation": "84%",
-    "lightness": "100%",
+    "lightness": "10%",
     "alpha": 1,
     "hex": "#2D042FFF",
     "RGBA": "rgba(45, 4, 47, 1)",
@@ -17,22 +29,22 @@
     "saturation": "72%",
     "lightness": "59%",
     "alpha": 1,
-    "hex": "#E18E4AFF",
-    "RGBA": "rgba(225, 142, 74, 1)",
-    "red": 225,
-    "green": 142,
-    "blue": 74
+    "hex": "#E28f4BFF",
+    "RGBA": "rgba(226, 143, 75, 1)",
+    "red": 226,
+    "green": 143,
+    "blue": 75
   },
   "calico": {
-    "HSLA": "hsla(27deg, 56%, 73%, 1)",
-    "hue": "27deg",
+    "HSLA": "hsla(26deg, 56%, 73%, 1)",
+    "hue": "26deg",
     "saturation": "56%",
     "lightness": "73%",
     "alpha": 1,
-    "hex": "#E28F4BFF",
+    "hex": "#E1B594FF",
     "RGBA": "rgba(225, 182, 148, 1)",
     "red": 225,
-    "green": 182,
+    "green": 181,
     "blue": 148
   },
   "shadow": {

@@ -1,0 +1,15 @@
+:root {
+	--kilamanjaro_hue: 22deg;
+	--kilamanjaro_saturation: 85%;
+	--kilamanjaro_lightness: 8%;
+	--kilamanjaro_alpha: 1;
+
+	--kilamanjaro_hsla: hsla(
+		var(--kilamanjaro_hue),
+		var(--kilamanjaro_saturation),
+		var(--kilamanjaro_lightness),
+		var(--kilamanjaro_alpha)
+	);
+
+	--color-kilamanjaro: var(--kilamanjaro_hsla);
+}
