@@ -1,5 +1,26 @@
-@import "./kilamanjaro.css";
-@import "./clairvoyant.css";
-@import "./terracotta.css";
-@import "./calico.css";
-@import "./shadow.css";
+@import "../build/brand/clairvoyant.css";
+@import "../build/brand/terracotta.css";
+@import "../build/supplementary/calico.css";
+@import "../build/supplementary/kilamanjaro.css";
+@import "../build/gradient/mulberry.css";
+@import "../build/gradient/disco.css";
+@import "../build/gradient/punch.css";
+
+:root {
+	/* Brand */
+	--color-clairvoyant: var(--clairvoyant_HSLA);
+	--color-terracotta: var(--terracotta_HSLA);
+
+	/* Supplementary */
+	--color-kilamanjaro: var(--kilamanjaro_HSLA);
+	--color-calico: var(--calico_HSLA);
+
+	/* Gradient */
+	--color-mulberry: var(--mulberry_HSLA);
+	--color-disco: var(--disco_HSLA);
+	--color-punch: var(--punch_HSLA);
+
+	/* Shadow */
+	--shadow-color: var(--clairvoyant_HSLA);
+	--shadow-opacity: 0.75;
+}

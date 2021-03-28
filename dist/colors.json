@@ -1,54 +1,141 @@
 {
-  "calico": {
-    "HSLA": "hsla(26deg, 56%, 73%, 1)",
-    "hue": "26deg",
-    "saturation": "56%",
-    "lightness": "73%",
-    "alpha": 1,
-    "hex": "#E1B594FF",
-    "RGBA": "rgba(225, 182, 148, 1)",
-    "red": 225,
-    "green": 181,
-    "blue": 148
-  },
-  "clairvoyant": {
-    "HSLA": "hsla(297deg, 84%, 10%, 1)",
-    "hue": "297deg",
-    "saturation": "84%",
-    "lightness": "10%",
-    "alpha": 1,
-    "hex": "#2D042FFF",
-    "RGBA": "rgba(45, 4, 47, 1)",
-    "red": 45,
-    "green": 4,
-    "blue": 47
-  },
-  "kilimanjaro": {
-    "HSLA": "hsla(22deg, 85%, 8%, 1)",
-    "hue": "22deg",
-    "saturation": "85%",
-    "lightness": "8%",
-    "alpha": 1,
-    "hex": "261003FF",
-    "RGBA": "rgba(38, 16, 3, 1)",
-    "red": 38,
-    "green": 16,
-    "blue": 3
-  },
-  "terracotta": {
-    "HSLA": "hsla(27deg, 72%, 59%, 1)",
-    "hue": "27deg",
-    "saturation": "72%",
-    "lightness": "59%",
-    "alpha": 1,
-    "hex": "#E28f4BFF",
-    "RGBA": "rgba(226, 143, 75, 1)",
-    "red": 226,
-    "green": 143,
-    "blue": 75
-  },
-  "shadow": {
-    "color": "hsla(27deg, 72%, 59%, 1)",
-    "opacity": 0.75
-  }
+  "brand": [
+    {
+      "name": "clairvoyant",
+      "polarity": "dark",
+      "hexa": "#2D042FFF",
+      "hex": "#2d042f",
+      "alpha": 1,
+      "HSL": {
+        "hue": 297,
+        "saturation": 84,
+        "lightness": 10
+      },
+      "hsla": "hsla(297deg, 84%, 10%, 1)",
+      "RGB": {
+        "red": 45,
+        "green": 4,
+        "blue": 47
+      },
+      "rgba": "rgba(45, 4, 47, 1)"
+    },
+    {
+      "name": "terracotta",
+      "polarity": "dark",
+      "hexa": "#E28f4BFF",
+      "hex": "#e28f4b",
+      "alpha": 1,
+      "HSL": {
+        "hue": 27,
+        "saturation": 72,
+        "lightness": 59
+      },
+      "hsla": "hsla(27deg, 72%, 59%, 1)",
+      "RGB": {
+        "red": 226,
+        "green": 143,
+        "blue": 75
+      },
+      "rgba": "rgba(226, 143, 75, 1)"
+    }
+  ],
+  "supplementary": [
+    {
+      "name": "kilamanjaro",
+      "polarity": "dark",
+      "hexa": "#261003FF",
+      "hex": "#261003",
+      "alpha": 1,
+      "HSL": {
+        "hue": 22,
+        "saturation": 85,
+        "lightness": 8
+      },
+      "hsla": "hsla(22deg, 85%, 8%, 1)",
+      "RGB": {
+        "red": 38,
+        "green": 16,
+        "blue": 3
+      },
+      "rgba": "rgba(38, 16, 3, 1)"
+    },
+    {
+      "name": "calico",
+      "polarity": "light",
+      "hexa": "#E1B594FF",
+      "hex": "#e1b594",
+      "alpha": 1,
+      "HSL": {
+        "hue": 26,
+        "saturation": 56,
+        "lightness": 73
+      },
+      "hsla": "hsla(26deg, 56%, 73%, 1)",
+      "RGB": {
+        "red": 225,
+        "green": 181,
+        "blue": 148
+      },
+      "rgba": "rgba(225, 181, 148, 1)"
+    }
+  ],
+  "gradient": [
+    {
+      "name": "mulberry",
+      "polarity": "dark",
+      "hexa": "#520844FF",
+      "hex": "#520844",
+      "alpha": 1,
+      "HSL": {
+        "hue": 311,
+        "saturation": 82,
+        "lightness": 18
+      },
+      "hsla": "hsla(311deg, 82%, 18%, 1)",
+      "RGB": {
+        "red": 82,
+        "green": 8,
+        "blue": 68
+      },
+      "rgba": "rgba(82, 8, 68, 1)"
+    },
+    {
+      "name": "disco",
+      "polarity": "dark",
+      "hexa": "#9D133CFF",
+      "hex": "#9d133c",
+      "alpha": 1,
+      "HSL": {
+        "hue": 342,
+        "saturation": 78,
+        "lightness": 35
+      },
+      "hsla": "hsla(342deg, 78%, 35%, 1)",
+      "RGB": {
+        "red": 157,
+        "green": 19,
+        "blue": 60
+      },
+      "rgba": "rgba(157, 19, 60, 1)"
+    },
+    {
+      "name": "punch",
+      "polarity": "dark",
+      "hexa": "#DF4F27FF",
+      "hex": "#df4f27",
+      "alpha": 1,
+      "HSL": {
+        "hue": 13,
+        "saturation": 74,
+        "lightness": 51
+      },
+      "hsla": "hsla(13deg, 74%, 51%, 1)",
+      "RGB": {
+        "red": 223,
+        "green": 79,
+        "blue": 39
+      },
+      "rgba": "rgba(223, 79, 39, 1)"
+    }
+  ]
 }
