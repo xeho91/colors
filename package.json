@@ -1,11 +1,12 @@
 {
   "name": "@xeho91/colors",
-  "version": "1.3.0",
+  "version": "2.0.0",
   "description": "xeho91's brand colors",
   "keywords": [
     "colors",
     "brand",
     "assets",
+    "automation",
     "CSS",
     "JSON"
   ],
@@ -20,10 +21,9 @@
   },
   "homepage": "https://github.com/xeho91/colors#readme",
   "files": [
-    "colors.js",
     "/dist"
   ],
-  "main": "colors.js",
+  "main": "index.js",
   "style": "/dist/colors.css",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
