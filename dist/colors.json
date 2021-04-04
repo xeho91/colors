@@ -137,5 +137,83 @@
       },
       "rgba": "rgba(223, 79, 39, 1)"
     }
+  ],
+  "feedback": [
+    {
+      "name": "jade",
+      "polarity": "dark",
+      "hexa": "#05B872FF",
+      "hex": "#05b872",
+      "alpha": 1,
+      "HSL": {
+        "hue": 157,
+        "saturation": 95,
+        "lightness": 37
+      },
+      "hsla": "hsla(157deg, 95%, 37%, 1)",
+      "RGB": {
+        "red": 5,
+        "green": 184,
+        "blue": 114
+      },
+      "rgba": "rgba(5, 184, 114, 1)"
+    },
+    {
+      "name": "pizza",
+      "polarity": "dark",
+      "hexa": "#CB9913FF",
+      "hex": "#cb9913",
+      "alpha": 1,
+      "HSL": {
+        "hue": 44,
+        "saturation": 83,
+        "lightness": 44
+      },
+      "hsla": "hsla(44deg, 83%, 44%, 1)",
+      "RGB": {
+        "red": 203,
+        "green": 153,
+        "blue": 19
+      },
+      "rgba": "rgba(203, 153, 19, 1)"
+    },
+    {
+      "name": "mahogany",
+      "polarity": "dark",
+      "hexa": "#66080DFF",
+      "hex": "#66080d",
+      "alpha": 1,
+      "HSL": {
+        "hue": 357,
+        "saturation": 85,
+        "lightness": 22
+      },
+      "hsla": "hsla(357deg, 85%, 22%, 1)",
+      "RGB": {
+        "red": 102,
+        "green": 8,
+        "blue": 13
+      },
+      "rgba": "rgba(102, 8, 13, 1)"
+    },
+    {
+      "name": "koamaru",
+      "polarity": "dark",
+      "hexa": "#122879FF",
+      "hex": "#122879",
+      "alpha": 1,
+      "HSL": {
+        "hue": 227,
+        "saturation": 74,
+        "lightness": 27
+      },
+      "hsla": "hsla(227deg, 74%, 27%, 1)",
+      "RGB": {
+        "red": 18,
+        "green": 40,
+        "blue": 121
+      },
+      "rgba": "rgba(18, 40, 121, 1)"
+    }
   ]
 }

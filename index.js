@@ -49,6 +49,13 @@ var colors = {
 		new Color("#9D133CFF", "disco"),
 		new Color("#DF4F27FF", "punch"),
 	],
+
+	feedback: [
+		new Color("#05B872FF", "jade"),
+		new Color("#CB9913FF", "pizza"),
+		new Color("#66080DFF", "mahogany"),
+		new Color("#122879FF", "koamaru"),
+	],
 };
 
 module.exports = colors;
