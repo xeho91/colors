@@ -5,6 +5,10 @@
 @import "../build/gradient/mulberry.css";
 @import "../build/gradient/disco.css";
 @import "../build/gradient/punch.css";
+@import "../build/feedback/jade.css";
+@import "../build/feedback/pizza.css";
+@import "../build/feedback/mahogany.css";
+@import "../build/feedback/koamaru.css";
 
 :root {
 	/* Brand */
@@ -19,6 +23,12 @@
 	--color-mulberry: var(--mulberry_HSLA);
 	--color-disco: var(--disco_HSLA);
 	--color-punch: var(--punch_HSLA);
+
+	/* Feedback */
+	--color-jade: var(--jade_HSLA);
+	--color-pizza: var(--pizza_HSLA);
+	--color-mahogany: var(--mahogany_HSLA);
+	--color-koamaru: var(--koamaru_HSLA);
 
 	/* Shadow */
 	--shadow-color: var(--clairvoyant_HSLA);
