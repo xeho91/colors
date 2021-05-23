@@ -48,7 +48,7 @@ export default async function writeToCSS(data: DetailedData, options: BuildOptio
                 function wrap(...parameters: string[]) {
                     return parameters
                         .map((param) => {
-                            return `var(--${color.name}${param})`;
+                            return `var(--${color.name}_${param})`;
                         })
                         .join(", ");
                 }

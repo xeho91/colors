@@ -3,13 +3,13 @@
 	--koamaru_hue: 227deg;
 	--koamaru_saturation: 74%;
 	--koamaru_lightness: 27%;
-	--koamaru_HSL: var(--koamaruhue), var(--koamarusaturation), var(--koamarulightness);
-	--koamaru_HSLA: hsla(var(--koamaruHSL), var(--koamarualpha));
+	--koamaru_HSL: var(--koamaru_hue), var(--koamaru_saturation), var(--koamaru_lightness);
+	--koamaru_HSLA: hsla(var(--koamaru_HSL), var(--koamaru_alpha));
 	--koamaru_red: 18;
 	--koamaru_green: 40;
 	--koamaru_blue: 121;
-	--koamaru_RGB: var(--koamarured), var(--koamarugreen), var(--koamarublue);
-	--koamaru_RGBA: rgba(var(--koamaruRGB), var(--koamarualpha));
+	--koamaru_RGB: var(--koamaru_red), var(--koamaru_green), var(--koamaru_blue);
+	--koamaru_RGBA: rgba(var(--koamaru_RGB), var(--koamaru_alpha));
 	--koamaru_HEX: #122879;
 	--koamaru_HEXA: #122879FF;
 }

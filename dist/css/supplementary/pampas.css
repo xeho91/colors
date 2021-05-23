@@ -3,13 +3,13 @@
 	--pampas_hue: 60deg;
 	--pampas_saturation: 24%;
 	--pampas_lightness: 96%;
-	--pampas_HSL: var(--pampashue), var(--pampassaturation), var(--pampaslightness);
-	--pampas_HSLA: hsla(var(--pampasHSL), var(--pampasalpha));
+	--pampas_HSL: var(--pampas_hue), var(--pampas_saturation), var(--pampas_lightness);
+	--pampas_HSLA: hsla(var(--pampas_HSL), var(--pampas_alpha));
 	--pampas_red: 247;
 	--pampas_green: 247;
 	--pampas_blue: 242;
-	--pampas_RGB: var(--pampasred), var(--pampasgreen), var(--pampasblue);
-	--pampas_RGBA: rgba(var(--pampasRGB), var(--pampasalpha));
+	--pampas_RGB: var(--pampas_red), var(--pampas_green), var(--pampas_blue);
+	--pampas_RGBA: rgba(var(--pampas_RGB), var(--pampas_alpha));
 	--pampas_HEX: #f7f7f2;
 	--pampas_HEXA: #F7F7F2FF;
 }

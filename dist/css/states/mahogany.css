@@ -3,13 +3,13 @@
 	--mahogany_hue: 357deg;
 	--mahogany_saturation: 85%;
 	--mahogany_lightness: 22%;
-	--mahogany_HSL: var(--mahoganyhue), var(--mahoganysaturation), var(--mahoganylightness);
-	--mahogany_HSLA: hsla(var(--mahoganyHSL), var(--mahoganyalpha));
+	--mahogany_HSL: var(--mahogany_hue), var(--mahogany_saturation), var(--mahogany_lightness);
+	--mahogany_HSLA: hsla(var(--mahogany_HSL), var(--mahogany_alpha));
 	--mahogany_red: 102;
 	--mahogany_green: 8;
 	--mahogany_blue: 13;
-	--mahogany_RGB: var(--mahoganyred), var(--mahoganygreen), var(--mahoganyblue);
-	--mahogany_RGBA: rgba(var(--mahoganyRGB), var(--mahoganyalpha));
+	--mahogany_RGB: var(--mahogany_red), var(--mahogany_green), var(--mahogany_blue);
+	--mahogany_RGBA: rgba(var(--mahogany_RGB), var(--mahogany_alpha));
 	--mahogany_HEX: #66080d;
 	--mahogany_HEXA: #66080DFF;
 }

@@ -3,13 +3,13 @@
 	--woodland_hue: 108deg;
 	--woodland_saturation: 39%;
 	--woodland_lightness: 28%;
-	--woodland_HSL: var(--woodlandhue), var(--woodlandsaturation), var(--woodlandlightness);
-	--woodland_HSLA: hsla(var(--woodlandHSL), var(--woodlandalpha));
+	--woodland_HSL: var(--woodland_hue), var(--woodland_saturation), var(--woodland_lightness);
+	--woodland_HSLA: hsla(var(--woodland_HSL), var(--woodland_alpha));
 	--woodland_red: 54;
 	--woodland_green: 98;
 	--woodland_blue: 43;
-	--woodland_RGB: var(--woodlandred), var(--woodlandgreen), var(--woodlandblue);
-	--woodland_RGBA: rgba(var(--woodlandRGB), var(--woodlandalpha));
+	--woodland_RGB: var(--woodland_red), var(--woodland_green), var(--woodland_blue);
+	--woodland_RGBA: rgba(var(--woodland_RGB), var(--woodland_alpha));
 	--woodland_HEX: #36622b;
 	--woodland_HEXA: #36622BFF;
 }

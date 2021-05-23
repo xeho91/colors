@@ -3,13 +3,13 @@
 	--cardinal_hue: 351deg;
 	--cardinal_saturation: 73%;
 	--cardinal_lightness: 40%;
-	--cardinal_HSL: var(--cardinalhue), var(--cardinalsaturation), var(--cardinallightness);
-	--cardinal_HSLA: hsla(var(--cardinalHSL), var(--cardinalalpha));
+	--cardinal_HSL: var(--cardinal_hue), var(--cardinal_saturation), var(--cardinal_lightness);
+	--cardinal_HSLA: hsla(var(--cardinal_HSL), var(--cardinal_alpha));
 	--cardinal_red: 176;
 	--cardinal_green: 28;
 	--cardinal_blue: 51;
-	--cardinal_RGB: var(--cardinalred), var(--cardinalgreen), var(--cardinalblue);
-	--cardinal_RGBA: rgba(var(--cardinalRGB), var(--cardinalalpha));
+	--cardinal_RGB: var(--cardinal_red), var(--cardinal_green), var(--cardinal_blue);
+	--cardinal_RGBA: rgba(var(--cardinal_RGB), var(--cardinal_alpha));
 	--cardinal_HEX: #b01c33;
 	--cardinal_HEXA: #B01C33FF;
 }
