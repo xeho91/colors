@@ -23,10 +23,10 @@
   },
   "homepage": "https://github.com/xeho91/xeho91#readme",
   "files": [
-    "./dist/*"
+    "/dist/**/*"
   ],
-  "main": "./dist/colors.css",
-  "style": "./dist/colors.css",
+  "main": "/dist/colors.css",
+  "style": "/dist/colors.css",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
