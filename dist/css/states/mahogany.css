@@ -1,0 +1,15 @@
+:root {
+	--mahogany_alpha: 1;
+	--mahogany_hue: 357deg;
+	--mahogany_saturation: 85%;
+	--mahogany_lightness: 22%;
+	--mahogany_HSL: var(--mahoganyhue), var(--mahoganysaturation), var(--mahoganylightness);
+	--mahogany_HSLA: hsla(var(--mahoganyHSL), var(--mahoganyalpha));
+	--mahogany_red: 102;
+	--mahogany_green: 8;
+	--mahogany_blue: 13;
+	--mahogany_RGB: var(--mahoganyred), var(--mahoganygreen), var(--mahoganyblue);
+	--mahogany_RGBA: rgba(var(--mahoganyRGB), var(--mahoganyalpha));
+	--mahogany_HEX: #66080d;
+	--mahogany_HEXA: #66080DFF;
+}

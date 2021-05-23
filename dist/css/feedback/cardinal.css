@@ -1,0 +1,15 @@
+:root {
+	--cardinal_alpha: 1;
+	--cardinal_hue: 351deg;
+	--cardinal_saturation: 73%;
+	--cardinal_lightness: 40%;
+	--cardinal_HSL: var(--cardinalhue), var(--cardinalsaturation), var(--cardinallightness);
+	--cardinal_HSLA: hsla(var(--cardinalHSL), var(--cardinalalpha));
+	--cardinal_red: 176;
+	--cardinal_green: 28;
+	--cardinal_blue: 51;
+	--cardinal_RGB: var(--cardinalred), var(--cardinalgreen), var(--cardinalblue);
+	--cardinal_RGBA: rgba(var(--cardinalRGB), var(--cardinalalpha));
+	--cardinal_HEX: #b01c33;
+	--cardinal_HEXA: #B01C33FF;
+}

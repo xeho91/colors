@@ -11,13 +11,11 @@
         "saturation": 84,
         "lightness": 10
       },
-      "hsla": "hsla(297deg, 84%, 10%, 1)",
       "RGB": {
         "red": 45,
         "green": 4,
         "blue": 47
-      },
-      "rgba": "rgba(45, 4, 47, 1)"
+      }
     },
     {
       "name": "terracotta",
@@ -30,13 +28,11 @@
         "saturation": 72,
         "lightness": 59
       },
-      "hsla": "hsla(27deg, 72%, 59%, 1)",
       "RGB": {
         "red": 226,
         "green": 143,
         "blue": 75
-      },
-      "rgba": "rgba(226, 143, 75, 1)"
+      }
     }
   ],
   "supplementary": [
@@ -51,13 +47,11 @@
         "saturation": 85,
         "lightness": 8
       },
-      "hsla": "hsla(22deg, 85%, 8%, 1)",
       "RGB": {
         "red": 38,
         "green": 16,
         "blue": 3
-      },
-      "rgba": "rgba(38, 16, 3, 1)"
+      }
     },
     {
       "name": "calico",
@@ -70,13 +64,28 @@
         "saturation": 56,
         "lightness": 73
       },
-      "hsla": "hsla(26deg, 56%, 73%, 1)",
       "RGB": {
         "red": 225,
         "green": 181,
         "blue": 148
+      }
+    },
+    {
+      "name": "pampas",
+      "polarity": "light",
+      "hexa": "#F7F7F2FF",
+      "hex": "#f7f7f2",
+      "alpha": 1,
+      "HSL": {
+        "hue": 60,
+        "saturation": 24,
+        "lightness": 96
       },
-      "rgba": "rgba(225, 181, 148, 1)"
+      "RGB": {
+        "red": 247,
+        "green": 247,
+        "blue": 242
+      }
     }
   ],
   "gradient": [
@@ -91,13 +100,11 @@
         "saturation": 82,
         "lightness": 18
       },
-      "hsla": "hsla(311deg, 82%, 18%, 1)",
       "RGB": {
         "red": 82,
         "green": 8,
         "blue": 68
-      },
-      "rgba": "rgba(82, 8, 68, 1)"
+      }
     },
     {
       "name": "disco",
@@ -110,13 +117,11 @@
         "saturation": 78,
         "lightness": 35
       },
-      "hsla": "hsla(342deg, 78%, 35%, 1)",
       "RGB": {
         "red": 157,
         "green": 19,
         "blue": 60
-      },
-      "rgba": "rgba(157, 19, 60, 1)"
+      }
     },
     {
       "name": "punch",
@@ -129,34 +134,64 @@
         "saturation": 74,
         "lightness": 51
       },
-      "hsla": "hsla(13deg, 74%, 51%, 1)",
       "RGB": {
         "red": 223,
         "green": 79,
         "blue": 39
-      },
-      "rgba": "rgba(223, 79, 39, 1)"
+      }
     }
   ],
   "feedback": [
     {
-      "name": "jade",
+      "name": "azure",
       "polarity": "dark",
-      "hexa": "#05B872FF",
-      "hex": "#05b872",
+      "hexa": "#315B96FF",
+      "hex": "#315b96",
       "alpha": 1,
       "HSL": {
-        "hue": 157,
-        "saturation": 95,
-        "lightness": 37
+        "hue": 215,
+        "saturation": 51,
+        "lightness": 39
       },
-      "hsla": "hsla(157deg, 95%, 37%, 1)",
       "RGB": {
-        "red": 5,
-        "green": 184,
-        "blue": 114
+        "red": 49,
+        "green": 91,
+        "blue": 150
+      }
+    },
+    {
+      "name": "cardinal",
+      "polarity": "dark",
+      "hexa": "#B01C33FF",
+      "hex": "#b01c33",
+      "alpha": 1,
+      "HSL": {
+        "hue": 351,
+        "saturation": 73,
+        "lightness": 40
       },
-      "rgba": "rgba(5, 184, 114, 1)"
+      "RGB": {
+        "red": 176,
+        "green": 28,
+        "blue": 51
+      }
+    },
+    {
+      "name": "woodland",
+      "polarity": "dark",
+      "hexa": "#36622BFF",
+      "hex": "#36622b",
+      "alpha": 1,
+      "HSL": {
+        "hue": 108,
+        "saturation": 39,
+        "lightness": 28
+      },
+      "RGB": {
+        "red": 54,
+        "green": 98,
+        "blue": 43
+      }
     },
     {
       "name": "pizza",
@@ -169,13 +204,47 @@
         "saturation": 83,
         "lightness": 44
       },
-      "hsla": "hsla(44deg, 83%, 44%, 1)",
       "RGB": {
         "red": 203,
         "green": 153,
         "blue": 19
+      }
+    }
+  ],
+  "states": [
+    {
+      "name": "corduroy",
+      "polarity": "dark",
+      "hexa": "#5B5D5CFF",
+      "hex": "#5b5d5c",
+      "alpha": 1,
+      "HSL": {
+        "hue": 150,
+        "saturation": 1,
+        "lightness": 36
       },
-      "rgba": "rgba(203, 153, 19, 1)"
+      "RGB": {
+        "red": 91,
+        "green": 93,
+        "blue": 92
+      }
+    },
+    {
+      "name": "jade",
+      "polarity": "dark",
+      "hexa": "#05B872FF",
+      "hex": "#05b872",
+      "alpha": 1,
+      "HSL": {
+        "hue": 157,
+        "saturation": 95,
+        "lightness": 37
+      },
+      "RGB": {
+        "red": 5,
+        "green": 184,
+        "blue": 114
+      }
     },
     {
       "name": "mahogany",
@@ -188,13 +257,11 @@
         "saturation": 85,
         "lightness": 22
       },
-      "hsla": "hsla(357deg, 85%, 22%, 1)",
       "RGB": {
         "red": 102,
         "green": 8,
         "blue": 13
-      },
-      "rgba": "rgba(102, 8, 13, 1)"
+      }
     },
     {
       "name": "koamaru",
@@ -207,13 +274,11 @@
         "saturation": 74,
         "lightness": 27
       },
-      "hsla": "hsla(227deg, 74%, 27%, 1)",
       "RGB": {
         "red": 18,
         "green": 40,
         "blue": 121
-      },
-      "rgba": "rgba(18, 40, 121, 1)"
+      }
     }
   ]
 }

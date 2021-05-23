@@ -1,0 +1,15 @@
+:root {
+	--calico_alpha: 1;
+	--calico_hue: 26deg;
+	--calico_saturation: 56%;
+	--calico_lightness: 73%;
+	--calico_HSL: var(--calicohue), var(--calicosaturation), var(--calicolightness);
+	--calico_HSLA: hsla(var(--calicoHSL), var(--calicoalpha));
+	--calico_red: 225;
+	--calico_green: 181;
+	--calico_blue: 148;
+	--calico_RGB: var(--calicored), var(--calicogreen), var(--calicoblue);
+	--calico_RGBA: rgba(var(--calicoRGB), var(--calicoalpha));
+	--calico_HEX: #e1b594;
+	--calico_HEXA: #E1B594FF;
+}

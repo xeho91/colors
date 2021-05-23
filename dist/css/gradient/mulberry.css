@@ -1,0 +1,15 @@
+:root {
+	--mulberry_alpha: 1;
+	--mulberry_hue: 311deg;
+	--mulberry_saturation: 82%;
+	--mulberry_lightness: 18%;
+	--mulberry_HSL: var(--mulberryhue), var(--mulberrysaturation), var(--mulberrylightness);
+	--mulberry_HSLA: hsla(var(--mulberryHSL), var(--mulberryalpha));
+	--mulberry_red: 82;
+	--mulberry_green: 8;
+	--mulberry_blue: 68;
+	--mulberry_RGB: var(--mulberryred), var(--mulberrygreen), var(--mulberryblue);
+	--mulberry_RGBA: rgba(var(--mulberryRGB), var(--mulberryalpha));
+	--mulberry_HEX: #520844;
+	--mulberry_HEXA: #520844FF;
+}

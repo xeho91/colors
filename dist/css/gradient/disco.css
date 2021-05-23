@@ -1,0 +1,15 @@
+:root {
+	--disco_alpha: 1;
+	--disco_hue: 342deg;
+	--disco_saturation: 78%;
+	--disco_lightness: 35%;
+	--disco_HSL: var(--discohue), var(--discosaturation), var(--discolightness);
+	--disco_HSLA: hsla(var(--discoHSL), var(--discoalpha));
+	--disco_red: 157;
+	--disco_green: 19;
+	--disco_blue: 60;
+	--disco_RGB: var(--discored), var(--discogreen), var(--discoblue);
+	--disco_RGBA: rgba(var(--discoRGB), var(--discoalpha));
+	--disco_HEX: #9d133c;
+	--disco_HEXA: #9D133CFF;
+}

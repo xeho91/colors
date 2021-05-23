@@ -1,0 +1,15 @@
+:root {
+	--pizza_alpha: 1;
+	--pizza_hue: 44deg;
+	--pizza_saturation: 83%;
+	--pizza_lightness: 44%;
+	--pizza_HSL: var(--pizzahue), var(--pizzasaturation), var(--pizzalightness);
+	--pizza_HSLA: hsla(var(--pizzaHSL), var(--pizzaalpha));
+	--pizza_red: 203;
+	--pizza_green: 153;
+	--pizza_blue: 19;
+	--pizza_RGB: var(--pizzared), var(--pizzagreen), var(--pizzablue);
+	--pizza_RGBA: rgba(var(--pizzaRGB), var(--pizzaalpha));
+	--pizza_HEX: #cb9913;
+	--pizza_HEXA: #CB9913FF;
+}

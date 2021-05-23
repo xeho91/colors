@@ -1,0 +1,35 @@
+@import "./brand/clairvoyant.css";
+@import "./brand/terracotta.css";
+@import "./supplementary/kilamanjaro.css";
+@import "./supplementary/calico.css";
+@import "./supplementary/pampas.css";
+@import "./gradient/mulberry.css";
+@import "./gradient/disco.css";
+@import "./gradient/punch.css";
+@import "./feedback/azure.css";
+@import "./feedback/cardinal.css";
+@import "./feedback/woodland.css";
+@import "./feedback/pizza.css";
+@import "./states/corduroy.css";
+@import "./states/jade.css";
+@import "./states/mahogany.css";
+@import "./states/koamaru.css";
+
+:root {
+	--color-clairvoyant: var(--clairvoyant_HSLA);
+	--color-terracotta: var(--terracotta_HSLA);
+	--color-kilamanjaro: var(--kilamanjaro_HSLA);
+	--color-calico: var(--calico_HSLA);
+	--color-pampas: var(--pampas_HSLA);
+	--color-mulberry: var(--mulberry_HSLA);
+	--color-disco: var(--disco_HSLA);
+	--color-punch: var(--punch_HSLA);
+	--color-azure: var(--azure_HSLA);
+	--color-cardinal: var(--cardinal_HSLA);
+	--color-woodland: var(--woodland_HSLA);
+	--color-pizza: var(--pizza_HSLA);
+	--color-corduroy: var(--corduroy_HSLA);
+	--color-jade: var(--jade_HSLA);
+	--color-mahogany: var(--mahogany_HSLA);
+	--color-koamaru: var(--koamaru_HSLA);
+}

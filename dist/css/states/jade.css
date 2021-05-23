@@ -1,0 +1,15 @@
+:root {
+	--jade_alpha: 1;
+	--jade_hue: 157deg;
+	--jade_saturation: 95%;
+	--jade_lightness: 37%;
+	--jade_HSL: var(--jadehue), var(--jadesaturation), var(--jadelightness);
+	--jade_HSLA: hsla(var(--jadeHSL), var(--jadealpha));
+	--jade_red: 5;
+	--jade_green: 184;
+	--jade_blue: 114;
+	--jade_RGB: var(--jadered), var(--jadegreen), var(--jadeblue);
+	--jade_RGBA: rgba(var(--jadeRGB), var(--jadealpha));
+	--jade_HEX: #05b872;
+	--jade_HEXA: #05B872FF;
+}

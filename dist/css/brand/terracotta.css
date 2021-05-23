@@ -1,0 +1,15 @@
+:root {
+	--terracotta_alpha: 1;
+	--terracotta_hue: 27deg;
+	--terracotta_saturation: 72%;
+	--terracotta_lightness: 59%;
+	--terracotta_HSL: var(--terracottahue), var(--terracottasaturation), var(--terracottalightness);
+	--terracotta_HSLA: hsla(var(--terracottaHSL), var(--terracottaalpha));
+	--terracotta_red: 226;
+	--terracotta_green: 143;
+	--terracotta_blue: 75;
+	--terracotta_RGB: var(--terracottared), var(--terracottagreen), var(--terracottablue);
+	--terracotta_RGBA: rgba(var(--terracottaRGB), var(--terracottaalpha));
+	--terracotta_HEX: #e28f4b;
+	--terracotta_HEXA: #E28f4BFF;
+}

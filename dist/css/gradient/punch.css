@@ -1,0 +1,15 @@
+:root {
+	--punch_alpha: 1;
+	--punch_hue: 13deg;
+	--punch_saturation: 74%;
+	--punch_lightness: 51%;
+	--punch_HSL: var(--punchhue), var(--punchsaturation), var(--punchlightness);
+	--punch_HSLA: hsla(var(--punchHSL), var(--punchalpha));
+	--punch_red: 223;
+	--punch_green: 79;
+	--punch_blue: 39;
+	--punch_RGB: var(--punchred), var(--punchgreen), var(--punchblue);
+	--punch_RGBA: rgba(var(--punchRGB), var(--punchalpha));
+	--punch_HEX: #df4f27;
+	--punch_HEXA: #DF4F27FF;
+}

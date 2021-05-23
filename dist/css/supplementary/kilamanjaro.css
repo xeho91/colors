@@ -1,0 +1,15 @@
+:root {
+	--kilamanjaro_alpha: 1;
+	--kilamanjaro_hue: 22deg;
+	--kilamanjaro_saturation: 85%;
+	--kilamanjaro_lightness: 8%;
+	--kilamanjaro_HSL: var(--kilamanjarohue), var(--kilamanjarosaturation), var(--kilamanjarolightness);
+	--kilamanjaro_HSLA: hsla(var(--kilamanjaroHSL), var(--kilamanjaroalpha));
+	--kilamanjaro_red: 38;
+	--kilamanjaro_green: 16;
+	--kilamanjaro_blue: 3;
+	--kilamanjaro_RGB: var(--kilamanjarored), var(--kilamanjarogreen), var(--kilamanjaroblue);
+	--kilamanjaro_RGBA: rgba(var(--kilamanjaroRGB), var(--kilamanjaroalpha));
+	--kilamanjaro_HEX: #261003;
+	--kilamanjaro_HEXA: #261003FF;
+}
