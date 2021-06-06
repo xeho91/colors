@@ -1,0 +1,20 @@
+{
+  "colors": [
+    { "hex": "#2D042F", "name": "clairvoyant", "group": "brand" },
+    { "hex": "#E28f4B", "name": "terracotta", "group": "brand" },
+    { "hex": "#261003", "name": "kilamanjaro", "group": "supplementary" },
+    { "hex": "#E1B594", "name": "calico", "group": "supplementary" },
+    { "hex": "#F7F7F2", "name": "pampas", "group": "supplementary" },
+    { "hex": "#520844", "name": "mulberry", "group": "gradient" },
+    { "hex": "#9D133C", "name": "disco", "group": "gradient" },
+    { "hex": "#DF4F27", "name": "punch", "group": "gradient" },
+    { "hex": "#315B96", "name": "azure", "group": "feedback" },
+    { "hex": "#B01C33", "name": "cardinal", "group": "feedback" },
+    { "hex": "#36622B", "name": "woodland", "group": "feedback" },
+    { "hex": "#CB9913", "name": "pizza", "group": "feedback" },
+    { "hex": "#5B5D5C", "name": "corduroy", "group": "state" },
+    { "hex": "#05B872", "name": "jade", "group": "state" },
+    { "hex": "#66080D", "name": "mahogany", "group": "state" },
+    { "hex": "#122879", "name": "koamaru", "group": "state" }
+  ]
+}
