@@ -1,36 +1,41 @@
 {
   "$schema": "https://json.schemastore.org/package",
   "name": "@xeho91/colors",
-  "version": "3.0.1",
-  "description": "xeho91's brand colors",
+  "version": "4.0.0",
+  "description": "xeho91's brand colors with custom CLI for automated tasks.",
   "keywords": [
     "colors",
-    "brand",
-    "assets",
+    "brand assets",
     "automation",
     "CSS",
     "JSON",
+    "CLI",
     "deno"
   ],
-  "author": "Mateusz Kadlubowski <xeho91@pm.me> (https://xeho91.site/)",
-  "license": "MIT",
+  "license": "SEE LICENSE IN LICENSE",
+  "author": {
+    "name": "Mateusz Kadlubowski",
+    "email": "xeho91@pm.me",
+    "url": "https://xeho91.com/"
+  },
+  "homepage": "https://github.com/xeho91/colors#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/xeho91/colors.git"
   },
   "bugs": {
-    "url": "https://github.com/xeho91/xeho91/issues"
+    "url": "https://github.com/xeho91/colors/issues"
   },
-  "homepage": "https://github.com/xeho91/xeho91#readme",
   "files": [
-    "/dist/**/*"
+    "/dist/**/*",
+    "/bin/**/*"
   ],
+  "bin": {
+    "xeho91-colors": "./bin/xeho91-colors"
+  },
   "main": "/dist/colors.css",
   "style": "/dist/colors.css",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
-  },
-  "scripts": {
-    "build": "deno run --unstable --allow-env=NODE_ENV --allow-read --allow-write cli/mod.ts build"
   }
 }
