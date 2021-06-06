@@ -1,11 +1,8 @@
 {
-  "brand": [
-    {
-      "name": "clairvoyant",
-      "polarity": "dark",
+  "brand": {
+    "clairvoyant": {
+      "hex": "#2D042F",
       "hexa": "#2D042FFF",
-      "hex": "#2d042f",
-      "alpha": 1,
       "HSL": {
         "hue": 297,
         "saturation": 84,
@@ -15,14 +12,13 @@
         "red": 45,
         "green": 4,
         "blue": 47
-      }
-    },
-    {
-      "name": "terracotta",
-      "polarity": "dark",
-      "hexa": "#E28f4BFF",
-      "hex": "#e28f4b",
+      },
       "alpha": 1,
+      "polarity": "dark"
+    },
+    "terracotta": {
+      "hex": "#E28f4B",
+      "hexa": "#E28f4BFF",
       "HSL": {
         "hue": 27,
         "saturation": 72,
@@ -32,16 +28,15 @@
         "red": 226,
         "green": 143,
         "blue": 75
-      }
-    }
-  ],
-  "supplementary": [
-    {
-      "name": "kilamanjaro",
-      "polarity": "dark",
-      "hexa": "#261003FF",
-      "hex": "#261003",
+      },
       "alpha": 1,
+      "polarity": "dark"
+    }
+  },
+  "supplementary": {
+    "kilamanjaro": {
+      "hex": "#261003",
+      "hexa": "#261003FF",
       "HSL": {
         "hue": 22,
         "saturation": 85,
@@ -51,14 +46,13 @@
         "red": 38,
         "green": 16,
         "blue": 3
-      }
-    },
-    {
-      "name": "calico",
-      "polarity": "light",
-      "hexa": "#E1B594FF",
-      "hex": "#e1b594",
+      },
       "alpha": 1,
+      "polarity": "dark"
+    },
+    "calico": {
+      "hex": "#E1B594",
+      "hexa": "#E1B594FF",
       "HSL": {
         "hue": 26,
         "saturation": 56,
@@ -68,14 +62,13 @@
         "red": 225,
         "green": 181,
         "blue": 148
-      }
-    },
-    {
-      "name": "pampas",
-      "polarity": "light",
-      "hexa": "#F7F7F2FF",
-      "hex": "#f7f7f2",
+      },
       "alpha": 1,
+      "polarity": "light"
+    },
+    "pampas": {
+      "hex": "#F7F7F2",
+      "hexa": "#F7F7F2FF",
       "HSL": {
         "hue": 60,
         "saturation": 24,
@@ -85,16 +78,15 @@
         "red": 247,
         "green": 247,
         "blue": 242
-      }
-    }
-  ],
-  "gradient": [
-    {
-      "name": "mulberry",
-      "polarity": "dark",
-      "hexa": "#520844FF",
-      "hex": "#520844",
+      },
       "alpha": 1,
+      "polarity": "light"
+    }
+  },
+  "gradient": {
+    "mulberry": {
+      "hex": "#520844",
+      "hexa": "#520844FF",
       "HSL": {
         "hue": 311,
         "saturation": 82,
@@ -104,14 +96,13 @@
         "red": 82,
         "green": 8,
         "blue": 68
-      }
-    },
-    {
-      "name": "disco",
-      "polarity": "dark",
-      "hexa": "#9D133CFF",
-      "hex": "#9d133c",
+      },
       "alpha": 1,
+      "polarity": "dark"
+    },
+    "disco": {
+      "hex": "#9D133C",
+      "hexa": "#9D133CFF",
       "HSL": {
         "hue": 342,
         "saturation": 78,
@@ -121,14 +112,13 @@
         "red": 157,
         "green": 19,
         "blue": 60
-      }
-    },
-    {
-      "name": "punch",
-      "polarity": "dark",
-      "hexa": "#DF4F27FF",
-      "hex": "#df4f27",
+      },
       "alpha": 1,
+      "polarity": "dark"
+    },
+    "punch": {
+      "hex": "#DF4F27",
+      "hexa": "#DF4F27FF",
       "HSL": {
         "hue": 13,
         "saturation": 74,
@@ -138,16 +128,15 @@
         "red": 223,
         "green": 79,
         "blue": 39
-      }
-    }
-  ],
-  "feedback": [
-    {
-      "name": "azure",
-      "polarity": "dark",
-      "hexa": "#315B96FF",
-      "hex": "#315b96",
+      },
       "alpha": 1,
+      "polarity": "dark"
+    }
+  },
+  "feedback": {
+    "azure": {
+      "hex": "#315B96",
+      "hexa": "#315B96FF",
       "HSL": {
         "hue": 215,
         "saturation": 51,
@@ -157,14 +146,13 @@
         "red": 49,
         "green": 91,
         "blue": 150
-      }
-    },
-    {
-      "name": "cardinal",
-      "polarity": "dark",
-      "hexa": "#B01C33FF",
-      "hex": "#b01c33",
+      },
       "alpha": 1,
+      "polarity": "dark"
+    },
+    "cardinal": {
+      "hex": "#B01C33",
+      "hexa": "#B01C33FF",
       "HSL": {
         "hue": 351,
         "saturation": 73,
@@ -174,14 +162,13 @@
         "red": 176,
         "green": 28,
         "blue": 51
-      }
-    },
-    {
-      "name": "woodland",
-      "polarity": "dark",
-      "hexa": "#36622BFF",
-      "hex": "#36622b",
+      },
       "alpha": 1,
+      "polarity": "dark"
+    },
+    "woodland": {
+      "hex": "#36622B",
+      "hexa": "#36622BFF",
       "HSL": {
         "hue": 108,
         "saturation": 39,
@@ -191,14 +178,13 @@
         "red": 54,
         "green": 98,
         "blue": 43
-      }
-    },
-    {
-      "name": "pizza",
-      "polarity": "dark",
-      "hexa": "#CB9913FF",
-      "hex": "#cb9913",
+      },
       "alpha": 1,
+      "polarity": "dark"
+    },
+    "pizza": {
+      "hex": "#CB9913",
+      "hexa": "#CB9913FF",
       "HSL": {
         "hue": 44,
         "saturation": 83,
@@ -208,16 +194,15 @@
         "red": 203,
         "green": 153,
         "blue": 19
-      }
-    }
-  ],
-  "states": [
-    {
-      "name": "corduroy",
-      "polarity": "dark",
-      "hexa": "#5B5D5CFF",
-      "hex": "#5b5d5c",
+      },
       "alpha": 1,
+      "polarity": "dark"
+    }
+  },
+  "state": {
+    "corduroy": {
+      "hex": "#5B5D5C",
+      "hexa": "#5B5D5CFF",
       "HSL": {
         "hue": 150,
         "saturation": 1,
@@ -227,14 +212,13 @@
         "red": 91,
         "green": 93,
         "blue": 92
-      }
-    },
-    {
-      "name": "jade",
-      "polarity": "dark",
-      "hexa": "#05B872FF",
-      "hex": "#05b872",
+      },
       "alpha": 1,
+      "polarity": "dark"
+    },
+    "jade": {
+      "hex": "#05B872",
+      "hexa": "#05B872FF",
       "HSL": {
         "hue": 157,
         "saturation": 95,
@@ -244,14 +228,13 @@
         "red": 5,
         "green": 184,
         "blue": 114
-      }
-    },
-    {
-      "name": "mahogany",
-      "polarity": "dark",
-      "hexa": "#66080DFF",
-      "hex": "#66080d",
+      },
       "alpha": 1,
+      "polarity": "dark"
+    },
+    "mahogany": {
+      "hex": "#66080D",
+      "hexa": "#66080DFF",
       "HSL": {
         "hue": 357,
         "saturation": 85,
@@ -261,14 +244,13 @@
         "red": 102,
         "green": 8,
         "blue": 13
-      }
-    },
-    {
-      "name": "koamaru",
-      "polarity": "dark",
-      "hexa": "#122879FF",
-      "hex": "#122879",
+      },
       "alpha": 1,
+      "polarity": "dark"
+    },
+    "koamaru": {
+      "hex": "#122879",
+      "hexa": "#122879FF",
       "HSL": {
         "hue": 227,
         "saturation": 74,
@@ -278,7 +260,9 @@
         "red": 18,
         "green": 40,
         "blue": 121
-      }
+      },
+      "alpha": 1,
+      "polarity": "dark"
     }
-  ]
+  }
 }

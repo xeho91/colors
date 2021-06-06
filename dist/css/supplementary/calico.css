@@ -5,11 +5,4 @@
 	--calico_lightness: 73%;
 	--calico_HSL: var(--calico_hue), var(--calico_saturation), var(--calico_lightness);
 	--calico_HSLA: hsla(var(--calico_HSL), var(--calico_alpha));
-	--calico_red: 225;
-	--calico_green: 181;
-	--calico_blue: 148;
-	--calico_RGB: var(--calico_red), var(--calico_green), var(--calico_blue);
-	--calico_RGBA: rgba(var(--calico_RGB), var(--calico_alpha));
-	--calico_HEX: #e1b594;
-	--calico_HEXA: #E1B594FF;
 }

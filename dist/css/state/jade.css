@@ -5,11 +5,4 @@
 	--jade_lightness: 37%;
 	--jade_HSL: var(--jade_hue), var(--jade_saturation), var(--jade_lightness);
 	--jade_HSLA: hsla(var(--jade_HSL), var(--jade_alpha));
-	--jade_red: 5;
-	--jade_green: 184;
-	--jade_blue: 114;
-	--jade_RGB: var(--jade_red), var(--jade_green), var(--jade_blue);
-	--jade_RGBA: rgba(var(--jade_RGB), var(--jade_alpha));
-	--jade_HEX: #05b872;
-	--jade_HEXA: #05B872FF;
 }

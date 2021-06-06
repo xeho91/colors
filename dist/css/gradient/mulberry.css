@@ -5,11 +5,4 @@
 	--mulberry_lightness: 18%;
 	--mulberry_HSL: var(--mulberry_hue), var(--mulberry_saturation), var(--mulberry_lightness);
 	--mulberry_HSLA: hsla(var(--mulberry_HSL), var(--mulberry_alpha));
-	--mulberry_red: 82;
-	--mulberry_green: 8;
-	--mulberry_blue: 68;
-	--mulberry_RGB: var(--mulberry_red), var(--mulberry_green), var(--mulberry_blue);
-	--mulberry_RGBA: rgba(var(--mulberry_RGB), var(--mulberry_alpha));
-	--mulberry_HEX: #520844;
-	--mulberry_HEXA: #520844FF;
 }

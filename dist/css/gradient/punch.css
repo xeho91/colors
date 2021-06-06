@@ -5,11 +5,4 @@
 	--punch_lightness: 51%;
 	--punch_HSL: var(--punch_hue), var(--punch_saturation), var(--punch_lightness);
 	--punch_HSLA: hsla(var(--punch_HSL), var(--punch_alpha));
-	--punch_red: 223;
-	--punch_green: 79;
-	--punch_blue: 39;
-	--punch_RGB: var(--punch_red), var(--punch_green), var(--punch_blue);
-	--punch_RGBA: rgba(var(--punch_RGB), var(--punch_alpha));
-	--punch_HEX: #df4f27;
-	--punch_HEXA: #DF4F27FF;
 }

@@ -5,11 +5,4 @@
 	--disco_lightness: 35%;
 	--disco_HSL: var(--disco_hue), var(--disco_saturation), var(--disco_lightness);
 	--disco_HSLA: hsla(var(--disco_HSL), var(--disco_alpha));
-	--disco_red: 157;
-	--disco_green: 19;
-	--disco_blue: 60;
-	--disco_RGB: var(--disco_red), var(--disco_green), var(--disco_blue);
-	--disco_RGBA: rgba(var(--disco_RGB), var(--disco_alpha));
-	--disco_HEX: #9d133c;
-	--disco_HEXA: #9D133CFF;
 }

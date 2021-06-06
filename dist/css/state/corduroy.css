@@ -5,11 +5,4 @@
 	--corduroy_lightness: 36%;
 	--corduroy_HSL: var(--corduroy_hue), var(--corduroy_saturation), var(--corduroy_lightness);
 	--corduroy_HSLA: hsla(var(--corduroy_HSL), var(--corduroy_alpha));
-	--corduroy_red: 91;
-	--corduroy_green: 93;
-	--corduroy_blue: 92;
-	--corduroy_RGB: var(--corduroy_red), var(--corduroy_green), var(--corduroy_blue);
-	--corduroy_RGBA: rgba(var(--corduroy_RGB), var(--corduroy_alpha));
-	--corduroy_HEX: #5b5d5c;
-	--corduroy_HEXA: #5B5D5CFF;
 }

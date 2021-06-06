@@ -5,11 +5,4 @@
 	--azure_lightness: 39%;
 	--azure_HSL: var(--azure_hue), var(--azure_saturation), var(--azure_lightness);
 	--azure_HSLA: hsla(var(--azure_HSL), var(--azure_alpha));
-	--azure_red: 49;
-	--azure_green: 91;
-	--azure_blue: 150;
-	--azure_RGB: var(--azure_red), var(--azure_green), var(--azure_blue);
-	--azure_RGBA: rgba(var(--azure_RGB), var(--azure_alpha));
-	--azure_HEX: #315b96;
-	--azure_HEXA: #315B96FF;
 }
