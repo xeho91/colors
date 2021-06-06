@@ -10,8 +10,18 @@ colours. And also train my coding skills.
 - [PostCSS]
 
 [Deno]: https://github.com/denoland/deno/
-[Cliffy]: https://github.com/c4spar/deno-cliffy
-[PostCSS]: https://github.com/postcss/postcss
+[Cliffy]: https://github.com/c4spar/deno-cliffy/
+[PostCSS]: https://github.com/postcss/postcss/
+
+## Features
+
+1. Uses [**CSS custom properties**], with all of the color code properties
+2. Has source-maps, for easier debugging.
+3. Additional colors info available via [`colors.json`](./dist/colors.json).
+4. Contains CLI written in [TypeScript] for [**automated task**](#automated-tasks).
+
+[CSS custom properties]: https://developer.mozilla.org/en-US/docs/Web/CSS/--*/
+[TypeScript]: https://github.com/microsoft/typescript/
 
 ## CLI usage
 
@@ -29,8 +39,5 @@ colours. And also train my coding skills.
 - [x] Generate the CSS output with desired color code variant _(HSL, RGB, or HEX)_
 - [x] Display the color's data for all of the colors or specific ones
   - [ ] display them with some sorting options
-- [ ] Add new colors to the config
-
-## LICENSE
-
-The code is licensed under the [MIT](./LICENSE).
+- [ ] Adding/deleting new colors to the config
+- [ ] Modifying existing colors in the config
