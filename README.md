@@ -18,10 +18,72 @@ colours. And also train my coding skills.
 1. Uses [**CSS custom properties**], with all of the color code properties
 2. Has source-maps, for easier debugging.
 3. Additional colors info available via [`colors.json`](./dist/colors.json).
-4. Contains CLI written in [TypeScript] for [**automated task**](#automated-tasks).
+4. Contains CLI written in [TypeScript] for [**automated tasks**](#automated-tasks).
 
 [CSS custom properties]: https://developer.mozilla.org/en-US/docs/Web/CSS/--*/
 [TypeScript]: https://github.com/microsoft/typescript/
+
+## CSS usage
+
+If you use for example [PostCSS], you can just import them with the following
+code:
+
+```css
+@import "@xeho91/colors";
+```
+
+Each color has a **name**, and **properties** based on the color code used. I
+prefer to use **HSLA**.\
+The properties are named with following format `--<name>_<property>`.
+
+Example:
+
+```css
+:root {
+	--clairvoyant_alpha: 1;
+	--clairvoyant_hue: 297deg;
+	--clairvoyant_saturation: 84%;
+	--clairvoyant_lightness: 10%;
+	--clairvoyant_HSL: var(--clairvoyant_hue), var(--clairvoyant_saturation), var(--clairvoyant_lightness);
+	--clairvoyant_HSLA: hsla(var(--clairvoyant_HSL), var(--clairvoyant_alpha));
+}
+```
+
+However, the variable to use it for coloring background, color or fill is named
+with the following format `--color-<name>`.
+
+Example:
+
+```css
+body {
+  color-background: var(--color-clairvoyant);
+}
+```
+
+To make it darker, lighter, or whatever needs to be done, it can be used like
+this:
+
+```css
+body {
+  color-background: hsla(
+    var(--clairvoyant_alpha),
+    var(--clairvoyant_hue),
+    calc(var(--clairvoyant_lightness) + 20%),
+    var(--clairvoyant_alpha)
+  );
+}
+```
+
+It may be too verbose, but at least it gives the full control, without breaking
+the brand guidelines.
+
+To make the more transparent, is possible to use it like this:
+
+```css
+body {
+  color-background: hsla(var(--clairvoyant_HSL), 0.75);
+}
+```
 
 ## CLI usage
 
