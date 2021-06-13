@@ -1,7 +1,7 @@
-import { wait } from "wait/mod.ts";
-import { success, error } from "utils/log.ts";
+import { wait } from "../deps.ts";
+import { success, error } from "../utils/log.ts";
 
-export default async function task(
+export async function task(
 	description: string,
 	callback: (() => void),
 	{ succeed = "done.", fail = "failed!" } = {},

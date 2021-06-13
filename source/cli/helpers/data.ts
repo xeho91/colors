@@ -1,5 +1,4 @@
-import { colors } from "cliffy/ansi/colors.ts";
-import { Cell, Table } from "cliffy/table/mod.ts";
+import { Cell, colors, Table } from "../deps.ts";
 import Color from "./Color.ts";
 import { getColorsConfigData } from "./config.ts";
 

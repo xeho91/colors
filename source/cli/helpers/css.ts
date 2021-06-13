@@ -1,13 +1,10 @@
-import { getColorsConfigData } from "helpers/config.ts";
-import { getAllColorsGroups, getColorData } from "helpers/data.ts";
-import { join } from "path/mod.ts";
-import postCSS from "postcss/mod.js";
-import postCSSimport from "postcss_import/mod.js";
-import { info } from "utils/log.ts";
-import task from "utils/task.ts";
+import { getColorsConfigData } from "../helpers/config.ts";
+import { getAllColorsGroups, getColorData } from "../helpers/data.ts";
+import { info } from "../utils/log.ts";
+import { task } from "../utils/task.ts";
+import { join, postCSS, postCSSimport } from "../deps.ts";
 
-import type { ColorCode } from "cli/types.ts";
-import type { BuildCSSoptions } from "commands/build/css.ts";
+import type { BuildCSSoptions, ColorCode } from "../types.ts";
 
 const { cwd, mkdirSync, writeTextFileSync, readTextFileSync } = Deno;
 

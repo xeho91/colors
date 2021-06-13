@@ -1,4 +1,4 @@
-import { channel, isDark } from "khroma";
+import { channel, isDark } from "../deps.ts";
 
 export default class Color {
 	hex: string;

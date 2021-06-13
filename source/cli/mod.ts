@@ -1,7 +1,6 @@
-import { Command } from "cliffy/command/mod.ts";
-import { Select } from "cliffy/prompt/mod.ts";
-import { build as commandBuild } from "commands/build.ts";
-import { details as commandDetails } from "commands/details.ts";
+import { Command, Select } from "./deps.ts";
+import { build as commandBuild } from "./commands/build.ts";
+import { details as commandDetails } from "./commands/details.ts";
 
 const { args, readTextFileSync } = Deno;
 const { version } = JSON.parse(readTextFileSync("./package.json"));

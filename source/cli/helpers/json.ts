@@ -1,8 +1,7 @@
-import { existsSync } from "fs/mod.ts";
-import { getAllColorsData } from "helpers/data.ts";
-import { join } from "path/mod.ts";
-import { info } from "utils/log.ts";
-import task from "utils/task.ts";
+import { existsSync, join } from "../deps.ts";
+import { getAllColorsData } from "../helpers/data.ts";
+import { info } from "../utils/log.ts";
+import { task } from "../utils/task.ts";
 
 const { cwd, mkdirSync, writeTextFileSync } = Deno;
 

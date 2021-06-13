@@ -1,9 +1,8 @@
-import { Command, EnumType } from "cliffy/command/mod.ts";
-import { Input, Select } from "cliffy/prompt/mod.ts";
-import { buildCSSfiles } from "helpers/css.ts";
+import { buildCSSfiles } from "../../helpers/css.ts";
+import { success } from "../../utils/log.ts";
+import { Command, EnumType, Input, Select } from "../../deps.ts";
 
-import type { BuildOptions } from "commands/build.ts";
-import type { ColorCode } from "cli/types.ts";
+import type { BuildOptions, ColorCode } from "../../types.ts";
 
 export interface BuildCSSoptions extends BuildOptions {
 	variant: ColorCode;
@@ -34,8 +33,7 @@ export const css = new Command<BuildCSSoptions>()
 
 		if (!output) {
 			const decision = await Input.prompt({
-				message:
-					"In which directory path do you want to save the output?",
+				message: "In which directory path do you want to save the output?",
 				default: "./dist/",
 				suggestions: ["./dist/"],
 			});
@@ -44,5 +42,5 @@ export const css = new Command<BuildCSSoptions>()
 		}
 
 		await buildCSSfiles({ variant, output, ...options });
-		console.log("Finished!");
+		console.log(success("Finished!"));
 	});

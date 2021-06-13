@@ -1,9 +1,8 @@
-import { join } from "path/mod.ts";
-import { info } from "utils/log.ts";
-import task from "utils/task.ts";
-import { z } from "zod/mod.ts";
+import { info } from "../utils/log.ts";
+import { task } from "../utils/task.ts";
+import { join, z } from "../deps.ts";
 
-const { args, readTextFileSync, cwd } = Deno;
+const { readTextFileSync, cwd } = Deno;
 
 export const ColorsConfigSchema = z.object({
 	colors: z.array(z.object({

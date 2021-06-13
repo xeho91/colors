@@ -1,12 +1,9 @@
-import { Command, EnumType } from "cliffy/command/mod.ts";
-import { Checkbox } from "cliffy/prompt/mod.ts";
-import { getColorsConfigData } from "helpers/config.ts";
-import { getAllColorsNames, printColorsData } from "helpers/data.ts";
-import capitalize from "utils/capitalize.ts";
+import { getColorsConfigData } from "../helpers/config.ts";
+import { getAllColorsNames, printColorsData } from "../helpers/data.ts";
+import capitalize from "../utils/capitalize.ts";
+import { Checkbox, Command, EnumType } from "../deps.ts";
 
-import type { GlobalOptions } from "cli/mod.ts";
-import type { ColorCode } from "cli/types.ts";
-import type { SelectValueOptions } from "cliffy/prompt/mod.ts";
+import type { GlobalOptions, ColorCode, SelectValueOptions } from "../types.ts";
 
 export interface DetailsOptions extends GlobalOptions {
 	variant: ColorCode;

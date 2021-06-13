@@ -1,9 +1,8 @@
-import type { GlobalOptions } from "cli/mod.ts";
-import { Command } from "cliffy/command/mod.ts";
-import { Select } from "cliffy/prompt/mod.ts";
+import { Command, Select } from "../deps.ts";
+import type { GlobalOptions } from "../types.ts";
 
-import { css as subCommandCSS } from "commands/build/css.ts";
-import subCommandJSON from "commands/build/json.ts";
+import { css as subCommandCSS } from "./build/css.ts";
+import subCommandJSON from "./build/json.ts";
 
 export interface BuildOptions extends GlobalOptions {
 	output: string;
@@ -33,7 +32,7 @@ export const build = new Command<BuildOptions>()
 			],
 		});
 
-		switch(decision) {
+		switch (decision) {
 			case "css":
 				await subCommandCSS.parse(args);
 				break;
