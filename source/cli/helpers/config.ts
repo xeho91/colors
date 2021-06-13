@@ -1,7 +1,8 @@
 import { info } from "../utils/log.ts";
 import { task } from "../utils/task.ts";
-import { join, z } from "../deps.ts";
+import { fromFileUrl, join, z } from "../deps.ts";
 
+const moduleRootPath = join(fromFileUrl(import.meta.url), "../../../../");
 const { readTextFileSync, cwd } = Deno;
 
 export const ColorsConfigSchema = z.object({
@@ -26,8 +27,10 @@ declare global {
 }
 
 /** Read the configuration file from specified path */
-export async function loadColorsConfig(path: string) {
-	const configPath = join(cwd(), path);
+export async function loadColorsConfig(path?: string) {
+	const configPath = path
+		? join(cwd(), path)
+		: join(moduleRootPath, "colors.config.json");
 	let data = {};
 
 	await task(
@@ -44,7 +47,7 @@ export async function loadColorsConfig(path: string) {
 	Object.assign(window, { colorsConfigData: data as ColorsConfigData });
 }
 
-await loadColorsConfig("./colors.config.json");
+await loadColorsConfig();
 
 /** Get saved data from the Deno's global object - window */
 export function getColorsConfigData(): ColorsConfigData {
