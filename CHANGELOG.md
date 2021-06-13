@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 4.1.1 (2021-06-13)
+
+### Bug Fixes
+
+- **package:** 🐛 CLI code not being included in package ([18cb3a5](https://github.com/xeho91/colors/commit/18cb3a53120bde257dd5028d4921be089cf027e7))
+
 ## 4.1.0 (2021-06-13)
 
 ### Bug Fixes
