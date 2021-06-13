@@ -27,8 +27,9 @@
     "url": "https://github.com/xeho91/colors/issues"
   },
   "files": [
+    "/bin/**/*",
     "/dist/**/*",
-    "/bin/**/*"
+    "/source/**/*"
   ],
   "bin": {
     "xeho91-colors": "./bin/xeho91-colors"
