@@ -87,7 +87,8 @@ body {
 
 ## CLI usage
 
-**NOTE:** Requires [Deno], until I am going to be able to compile the binary files.
+**NOTE:** Requires [Deno], until I am going to be able to compile or bundle.
+At the moment due to the issues with upstream and `swc`, I can't.
 
 1. Install the package globally with Node.JS package of your choice.\
    I use `pnpm`, so in my case `pnpm install --global @xeho91/colors`.
