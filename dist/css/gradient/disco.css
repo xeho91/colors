@@ -1,8 +1,0 @@
-:root {
-	--disco_alpha: 1;
-	--disco_hue: 342deg;
-	--disco_saturation: 78%;
-	--disco_lightness: 35%;
-	--disco_HSL: var(--disco_hue), var(--disco_saturation), var(--disco_lightness);
-	--disco_HSLA: hsla(var(--disco_HSL), var(--disco_alpha));
-}

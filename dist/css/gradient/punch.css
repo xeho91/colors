@@ -1,8 +1,0 @@
-:root {
-	--punch_alpha: 1;
-	--punch_hue: 13deg;
-	--punch_saturation: 74%;
-	--punch_lightness: 51%;
-	--punch_HSL: var(--punch_hue), var(--punch_saturation), var(--punch_lightness);
-	--punch_HSLA: hsla(var(--punch_HSL), var(--punch_alpha));
-}

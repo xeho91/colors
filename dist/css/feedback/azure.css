@@ -1,8 +1,0 @@
-:root {
-	--azure_alpha: 1;
-	--azure_hue: 215deg;
-	--azure_saturation: 51%;
-	--azure_lightness: 39%;
-	--azure_HSL: var(--azure_hue), var(--azure_saturation), var(--azure_lightness);
-	--azure_HSLA: hsla(var(--azure_HSL), var(--azure_alpha));
-}

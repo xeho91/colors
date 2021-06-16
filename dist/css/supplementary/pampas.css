@@ -1,8 +1,0 @@
-:root {
-	--pampas_alpha: 1;
-	--pampas_hue: 60deg;
-	--pampas_saturation: 24%;
-	--pampas_lightness: 96%;
-	--pampas_HSL: var(--pampas_hue), var(--pampas_saturation), var(--pampas_lightness);
-	--pampas_HSLA: hsla(var(--pampas_HSL), var(--pampas_alpha));
-}

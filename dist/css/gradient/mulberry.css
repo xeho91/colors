@@ -1,8 +1,0 @@
-:root {
-	--mulberry_alpha: 1;
-	--mulberry_hue: 311deg;
-	--mulberry_saturation: 82%;
-	--mulberry_lightness: 18%;
-	--mulberry_HSL: var(--mulberry_hue), var(--mulberry_saturation), var(--mulberry_lightness);
-	--mulberry_HSLA: hsla(var(--mulberry_HSL), var(--mulberry_alpha));
-}

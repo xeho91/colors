@@ -1,8 +1,0 @@
-:root {
-	--corduroy_alpha: 1;
-	--corduroy_hue: 150deg;
-	--corduroy_saturation: 1%;
-	--corduroy_lightness: 36%;
-	--corduroy_HSL: var(--corduroy_hue), var(--corduroy_saturation), var(--corduroy_lightness);
-	--corduroy_HSLA: hsla(var(--corduroy_HSL), var(--corduroy_alpha));
-}

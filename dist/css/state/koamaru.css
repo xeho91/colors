@@ -1,8 +1,0 @@
-:root {
-	--koamaru_alpha: 1;
-	--koamaru_hue: 227deg;
-	--koamaru_saturation: 74%;
-	--koamaru_lightness: 27%;
-	--koamaru_HSL: var(--koamaru_hue), var(--koamaru_saturation), var(--koamaru_lightness);
-	--koamaru_HSLA: hsla(var(--koamaru_HSL), var(--koamaru_alpha));
-}

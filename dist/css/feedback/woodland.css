@@ -1,8 +1,0 @@
-:root {
-	--woodland_alpha: 1;
-	--woodland_hue: 108deg;
-	--woodland_saturation: 39%;
-	--woodland_lightness: 28%;
-	--woodland_HSL: var(--woodland_hue), var(--woodland_saturation), var(--woodland_lightness);
-	--woodland_HSLA: hsla(var(--woodland_HSL), var(--woodland_alpha));
-}

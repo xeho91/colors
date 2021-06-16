@@ -1,8 +1,0 @@
-:root {
-	--kilamanjaro_alpha: 1;
-	--kilamanjaro_hue: 22deg;
-	--kilamanjaro_saturation: 85%;
-	--kilamanjaro_lightness: 8%;
-	--kilamanjaro_HSL: var(--kilamanjaro_hue), var(--kilamanjaro_saturation), var(--kilamanjaro_lightness);
-	--kilamanjaro_HSLA: hsla(var(--kilamanjaro_HSL), var(--kilamanjaro_alpha));
-}

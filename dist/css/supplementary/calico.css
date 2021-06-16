@@ -1,8 +1,0 @@
-:root {
-	--calico_alpha: 1;
-	--calico_hue: 26deg;
-	--calico_saturation: 56%;
-	--calico_lightness: 73%;
-	--calico_HSL: var(--calico_hue), var(--calico_saturation), var(--calico_lightness);
-	--calico_HSLA: hsla(var(--calico_HSL), var(--calico_alpha));
-}

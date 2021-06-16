@@ -1,8 +1,0 @@
-:root {
-	--jade_alpha: 1;
-	--jade_hue: 157deg;
-	--jade_saturation: 95%;
-	--jade_lightness: 37%;
-	--jade_HSL: var(--jade_hue), var(--jade_saturation), var(--jade_lightness);
-	--jade_HSLA: hsla(var(--jade_HSL), var(--jade_alpha));
-}

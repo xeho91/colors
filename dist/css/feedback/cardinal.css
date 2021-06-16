@@ -1,8 +1,0 @@
-:root {
-	--cardinal_alpha: 1;
-	--cardinal_hue: 351deg;
-	--cardinal_saturation: 73%;
-	--cardinal_lightness: 40%;
-	--cardinal_HSL: var(--cardinal_hue), var(--cardinal_saturation), var(--cardinal_lightness);
-	--cardinal_HSLA: hsla(var(--cardinal_HSL), var(--cardinal_alpha));
-}

@@ -1,8 +1,0 @@
-:root {
-	--mahogany_alpha: 1;
-	--mahogany_hue: 357deg;
-	--mahogany_saturation: 85%;
-	--mahogany_lightness: 22%;
-	--mahogany_HSL: var(--mahogany_hue), var(--mahogany_saturation), var(--mahogany_lightness);
-	--mahogany_HSLA: hsla(var(--mahogany_HSL), var(--mahogany_alpha));
-}

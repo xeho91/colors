@@ -1,8 +1,0 @@
-:root {
-	--pizza_alpha: 1;
-	--pizza_hue: 44deg;
-	--pizza_saturation: 83%;
-	--pizza_lightness: 44%;
-	--pizza_HSL: var(--pizza_hue), var(--pizza_saturation), var(--pizza_lightness);
-	--pizza_HSLA: hsla(var(--pizza_HSL), var(--pizza_alpha));
-}
