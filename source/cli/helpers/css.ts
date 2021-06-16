@@ -82,7 +82,7 @@ function generateGlobalCSScode(variant: ColorCode) {
 	}
 
 	function addVariable(name: string, variant: ColorCode) {
-		variables.push(`--color-${name}: var(--color_${variant.toUpperCase()}A);`);
+		variables.push(`--color-${name}: var(--${name}_${variant.toUpperCase()}A);`);
 	}
 
 	colors.forEach(({ name, group }) => {
