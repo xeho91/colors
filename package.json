@@ -10,7 +10,7 @@
     "CSS",
     "JSON",
     "CLI",
-    "deno"
+    "Deno"
   ],
   "license": "SEE LICENSE IN LICENSE",
   "author": {
@@ -32,7 +32,7 @@
     "/source/**/*"
   ],
   "bin": {
-    "xeho91-colors": "./bin/xeho91-colors"
+    "xeho91-colors": "./bin/cli"
   },
   "main": "/dist/colors.css",
   "style": "/dist/colors.css",
@@ -40,6 +40,8 @@
     "registry": "https://npm.pkg.github.com/"
   },
   "scripts": {
+    "build:css": "./bin/cli build css --variant hsl --output ./dist",
+    "build:json": "./bin/cli build json --output ./dist",
     "release": "standard-version --verbose"
   },
   "devDependencies": {
