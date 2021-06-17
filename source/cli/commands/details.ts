@@ -3,13 +3,14 @@ import { getAllColorsNames, printColorsData } from "../helpers/data.ts";
 import capitalize from "../utils/capitalize.ts";
 import { Checkbox, Command, EnumType } from "../deps.ts";
 
-import type { GlobalOptions, ColorCode, SelectValueOptions } from "../types.ts";
+import type {
+	DetailsArgument,
+	DetailsOptions,
+	GlobalOptions,
+	SelectValueOptions,
+} from "../types.ts";
 
-export interface DetailsOptions extends GlobalOptions {
-	variant: ColorCode;
-}
-
-/** Create ColorsNames with color names and values for the select ColorsNames prompt */
+/** Create options with the color names and values for the Select prompt */
 function createOptions() {
 	const options: SelectValueOptions = [];
 	const colors = getColorsConfigData().colors;
@@ -27,8 +28,6 @@ function createOptions() {
 
 	return options;
 }
-
-export type DetailsArgument = [colors: string[]];
 
 const ColorsNames = new EnumType([
 	"all",

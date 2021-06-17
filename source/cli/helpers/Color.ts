@@ -1,6 +1,6 @@
 import { channel, isDark } from "../deps.ts";
 
-export default class Color {
+export class Color {
 	hex: string;
 	hexa: string;
 

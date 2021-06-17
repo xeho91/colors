@@ -1,12 +1,7 @@
 import { Command, Select } from "../deps.ts";
-import type { GlobalOptions } from "../types.ts";
 
 import { css as subCommandCSS } from "./build/css.ts";
 import subCommandJSON from "./build/json.ts";
-
-export interface BuildOptions extends GlobalOptions {
-	output: string;
-}
 
 export const build = new Command<BuildOptions>()
 	.description("Build the JSON data file or CSS styles files.")

@@ -2,11 +2,7 @@ import { buildCSSfiles } from "../../helpers/css.ts";
 import { success } from "../../utils/log.ts";
 import { Command, EnumType, Input, Select } from "../../deps.ts";
 
-import type { BuildOptions, ColorCode } from "../../types.ts";
-
-export interface BuildCSSoptions extends BuildOptions {
-	variant: ColorCode;
-}
+import type { BuildCSSoptions, BuildOptions, ColorCode } from "../../types.ts";
 
 const colorVariant = new EnumType(["hsl", "rgb", "hex"]);
 

@@ -9,10 +9,6 @@ const { version } = JSON.parse(
 	readTextFileSync(join(moduleRootPath, "package.json")),
 );
 
-export interface GlobalOptions {
-	// config: string;
-}
-
 const main = new Command()
 	.name("xeho91-colors")
 	.stopEarly()

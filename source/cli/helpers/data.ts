@@ -1,12 +1,8 @@
 import { Cell, colors, Table } from "../deps.ts";
-import Color from "./Color.ts";
+import { Color } from "./Color.ts";
 import { getColorsConfigData } from "./config.ts";
 
-export interface ColorsData {
-	[groupName: string]: {
-		[colorName: string]: Color;
-	};
-}
+import type { ColorsData } from "../types.ts";
 
 /** Create a color data for a specified color name */
 export function getColorData(name: string) {
