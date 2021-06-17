@@ -1,6 +1,14 @@
 # Changelog
 
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+All notable changes to this project will be documented in this file.\
+See [standard-version](https://github.com/conventional-changelog/standard-version)
+for commit guidelines.
+
+## [1.2.0](https://github.com/xeho91/colors/compare/v1.1.1...v1.2.0) (2021-06-17)
+
+### Features
+
+- **CLI:** ✨ Added installer & instructions ([a809b7f](https://github.com/xeho91/colors/commit/a809b7f54fdd229ad9733c7bde3fbd19fd15aacb))
 
 ## 1.1.1 (2021-06-16)
 
