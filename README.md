@@ -25,6 +25,12 @@ colours. And also train my coding skills.
 
 ## CSS usage
 
+You can install this package with any Node.JS package of your choice:
+
+```sh
+pnpm install @xeho91/colors
+```
+
 If you use for example [PostCSS], you can just import them with the following
 code:
 
@@ -92,9 +98,22 @@ At the moment due to the issues with upstream and `swc`, I can't.
 
 1. Install the package globally with Node.JS package of your choice.\
    I use `pnpm`, so in my case `pnpm install --global @xeho91/colors`.
-2. Edit the [`colors.config.json`](./colors.config.json) if needed.
-3. Use `xeho91-colors --help` to view available options and commands.
-4. If you're lazy, just use `xeho91-colors` and it will ask you what do you
+2. **Inspect the code of installer script!**\
+   _(Example from using Linux, and Zsh)_:
+
+   ```sh
+   cat "$(pnpm root --global)/@xeho91/colors/install.sh"
+   ```
+
+3. If nothing suspicious and you understand what's going on here, execute it.
+
+   ```sh
+   "$(pnpm root --global)/@xeho91/colors/install.sh"
+   ```
+
+4. Edit the [`colors.config.json`](./colors.config.json) if needed.
+5. Use `xeho91-colors --help` to view available options and commands.
+6. If you're lazy, just use `xeho91-colors` and it will ask you what do you
    want to do.
 
 ## Automated tasks

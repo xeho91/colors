@@ -29,11 +29,9 @@
   "files": [
     "/bin/**/*",
     "/dist/**/*",
-    "/source/**/*"
+    "/source/**/*",
+    "/install.sh"
   ],
-  "bin": {
-    "xeho91-colors": "./bin/cli"
-  },
   "main": "/dist/colors.css",
   "style": "/dist/colors.css",
   "publishConfig": {
